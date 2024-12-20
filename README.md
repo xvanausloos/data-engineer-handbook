@@ -1,3 +1,10 @@
+
+LDI 20.12.24 - Resource for Data Modeling 
+Repo for Zach lab about data modeling
+
+---
+
+
 # The Data Engineering Handbook
 
 This repo has all the resources you need to become an amazing data engineer!
