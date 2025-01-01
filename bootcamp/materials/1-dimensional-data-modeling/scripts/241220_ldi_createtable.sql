@@ -26,9 +26,10 @@ CREATE TYPE season_stats AS(
  
 -- drop table players ;
     
--- truncate table players
+-- truncate table players;
     
- CREATE TABLE players (
+/*
+CREATE TABLE players (
     player_name TEXT,
     height TEXT,
     college TEXT,
@@ -43,9 +44,11 @@ CREATE TYPE season_stats AS(
     current_season INTEGER,
     PRIMARY KEY (player_name, current_season)
 );
+*/
 
 -- pipeline query
 
+truncate table players;
 
 INSERT INTO players (
     player_name,
